@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(img/padaria.webp);
+}
+/* Estilização do Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    padding-top: 5px;
+    background: color;
+    background-color:  white ;
+    overflow: hidden;
+    line-height: 200px;
+    max-height: 200px;
+}
+footer{
+    margin-top: 50px;
+    color: black;
+    line-height: 100px;
+}
+
+header > h1{
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    }
+    
+    /* Estilização da imagem do header */
+    
+    header > img{
+        width: 160px;
+        height: 120px;
+    }
+    .caixa_form {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        width: 75%;
+        height: 450px;
+        margin-top: 4%;
+        margin-bottom: auto;
+        margin-left: 12%;
+        margin-right:0px;
+        background-image: linear-gradient(180deg, #F4CEAF 8.33%, rgba(244, 200, 175, 0.827));
+        padding-top: 1%;
+        padding-left: 2%;
+        padding-right: 1%;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.664);
+    }
+.campo_texto{
+    font-size: 20px;
+    height: 30px;
+}
+#nome{
+    width: 30%;
+}
+#label_sobrenome{
+    margin-left:27%;
+}
+#sobrenome{
+    margin-left: 16px;
+    width: 50%;
+}
+.div_cpf_tel_email{
+    margin-top: 2%;
+}
+#cpf{
+    width: 25%;
+}
+#label_tel{
+    margin-left: 24%;
+}
+#telefone{
+    margin-left: 20px;
+    width: 25%;
+}
+#label_email{
+    margin-left: 20%;
+}
+#email{
+    margin-left: 20px;
+    width: 27%;
+}
+.div_data_nasc{
+    margin-top: 2%;
+}
+#data_nasc{
+    font-size: 20px
+}
+#box_restricoes{
+    margin: auto;
+    margin-top: 20px;
+    width: 55%;
+    height: 100px;
+}
+#titulo_restricoes{
+    text-align: center;
+}
+#div_restricoes{
+    column-count: 2;
+    column-gap: 5px;
+    padding-left: 1%;
+}
+.opc_chk{
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+.div_senha{
+    margin-top: 2%;
+}
+#label_conf_senha{
+    margin-left: 22%;
+}
+#confirma_senha{
+    margin-left: 3%;
+}
+.botao_form{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: wheat;
+    width: 120px;
+    height: 35px;
+}
+#botao_cancel{
+    margin-left: 10%;
+}
+#botao_confirma{
+    margin-left: 2%;
+}
+#img_voltar{
+    width: 30px;
+    height: 30px;
+}
+#ref_voltar{
+    color: black;
+    font-size: 20px;
+}

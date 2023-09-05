@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilização do Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    background: color;
+    background-color:  white ;
+    overflow: hidden;
+    line-height: 200px;
+    max-height: 200px;
+}
+
+/* Estilização do título do header */
+
+header > h1{
+color: orange;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 65px;
+}
+
+/* Estilização da imagem do header */
+header > img{
+    width: 200px;
+    height: 150px;
+}
+
+/* Estilização do menu */
+#menu-header{
+    display: flex;
+    align-items: center;
+}
+
+#list-menu{
+    display: flex;
+    margin-right: 1rem;
+
+}
+
+.item-menu-header{
+    margin-right: 25px;
+}
+
+/* Mudar de cor quando passar o mouse em cima dos itens do menu  */
+.item-menu-header > a:hover {
+    color: rgb(255, 153, 0);
+    transition: 1s;
+}
+
+
+.item-menu-header > a{
+    color: grey;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+/* Estilizações dos botões do header */
+
+#btn-header{
+    display: flex; 
+
+}
+
+#btn-header{
+    display: flex;
+}
+
+#btn-header > button{
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+}
+
+#btn-header > button > a{
+    display: flex;
+    align-items: center;
+}
+
+#btn-header > button > a > img{
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+
+}
+
+#btn-header > button > a{
+    color: grey;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* Estilização da imagem da padoca */
+
+#img-destaque{
+    padding: 260px;
+    background-image: url(img/padaria.webp);
+    background-position: center;
+}
+
+/* Estilização da imagem divisória */
+
+.img-div{
+    padding: 25px;
+    background-image: url(img/img-div.jpg);
+    background-position: center;
+    background-size: auto;
+}
+
+main > section > h2{
+    margin-top: 0px;
+    font-size: 36px;
+    text-align: center;
+
+    color:black
+}
+
+/* Estilização dos clientes */
+
+#clients { 
+    background-color: white;
+    margin-top: 0;
+    padding: 50px;
+
+}
+
+.line{
+    margin: 0 auto;
+    width: 20%;
+}
+
+#clients-list{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.clients-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clients-items > img {
+    width: 84px;
+    height: 84px;
+}
+
+.clients-item > h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 32;
+    align-items: center;
+    margin-top: 10xp;
+}
+
+.clients-item > p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+    margin-top:10px;
+    align-items: center;
+}
+
+#featured-products{
+    background: linear-gradient(180deg, #F4CEAF 8.33%, rgba(244, 200, 175, 0));
+    padding: 30px;
+}
+
+.products{
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-product{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.titles-products{
+    margin-top: 10px;
+    font-family: 'Ubuntu, 'sans-serif;
+    text-align: center;
+    font-size: 22px;
+}
+
+#featured-products > a{
+    text-decoration: none;
+    font-family: 'Ubuntu', 'sans-serif';
+    font-size: 20px;
+    color: red;
+}
+
+#featured-products > a:hover {
+    text-decoration: underline;
+    font-size: 22px;
+    transition: 1s;
+}
+
+#featured-products > a > p{
+    text-align: center;
+    margin-top: 35px;
+}
+
+#featured-products > h2{
+    text-align:center;
+}
+
+a{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#sobre-nos{
+    background-image: url(img/fundo-sobre-nos.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 120px;
+}
+
+#sobre-nos > h3{
+    color: white;
+    font-size: 64px;
+    text-align: center;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+#sobre-nos > p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 30px;
+    margin-top: 2em;
+    text-align: left;
+}
+
+footer{
+    padding: 80px;
+    background-image: url(img/img-footer.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+footer > ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer > h2{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.item-menu-footer{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.item-menu-footer > img{
+    width: 34px;
+    height: 34px;
+}
+
+.item-menu-footer > p{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px
+}

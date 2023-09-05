@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empório Padaria | Site Oficial | Cadastro</title>
+    <link rel="stylesheet" href="style_cadastro.css">
+</head>
+<body>
+     <!-- Estrutura do Header -->
+     <header>
+        <img src="img/pão.png" alt="">
+        <h1>EMPÓRIO PADARIA</h1>
+    </header>
+    <div class="caixa_form">
+        <form action="teste.html" method="post">
+            <div id="nome_sobrenome">
+                <label for="nome" >Nome</label>
+                <label for="sobrenome" id="label_sobrenome">Sobrenome</label><br>
+                
+                <input type="text" name="nome" id="nome" class="campo_texto" maxlength="25" >
+                <input type="text" name="sobrenome" id="sobrenome" class="campo_texto" >
+            </div>
+
+            <div class="div_cpf_tel_email">
+                <label for="cpf" id="label_cpf">CPF</label>
+                <label for="telefone" id="label_tel">Telefone</label>
+                <label for="email" id="label_email">Email</label><br>
+
+                <input type="text" name="cpf" id="cpf" class="campo_texto">
+                <input type="tel" name="telefone" id="telefone" class="campo_texto">
+                <input type="email" name="email" id="email" class="campo_texto">
+            </div>
+            <div class="div_data_nasc">
+                <label for="data_naci">Data de Nascimento</label>
+                <input type="date" name="data_nasc" id="data_nasc">
+            </div>
+            <div id="box_restricoes">
+                <h5 id="titulo_restricoes">Restrições Alimentares</h5>
+                <div id="div_restricoes" >
+                    <ul>
+                        <li><input type="checkbox" name="lactose" id="lactose" class="opc_chk">Intolerância à lactose</li>
+                        <li><input type="checkbox" name="gluten" id="gluten" class="opc_chk">Intolerância ao glúten</li>
+                        <li><input type="checkbox" name="amendoin" id="amendoin" class="opc_chk">Alergia a amendoim</li>
+                        <li><input type="checkbox" name="fruto_mar" id="frutos_mar" class="opc_chk">Alergia a frutos do mar</li>
+                        <li><input type="checkbox" name="diabetes" id="diabetes" class="opc_chk">Diabetes</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="div_senha">
+                <label for="senha" id="label_senha">Senha</label>
+                <label for="confirma_senha" id="label_conf_senha">Confirma a senha</label><br>
+                <input type="password" minlength="8" maxlength="10" name="senha" id="senha" class="campo_texto">
+                <input type="password" minlength="8" maxlength="10" name="confirma_senha" id="confirma_senha" class="campo_texto">
+
+                
+                <input type="reset" value="Cancelar" class="botao_form" id="botao_cancel">
+                <input type="submit" value="Confirma" class="botao_form" id="botao_confirma">
+                    
+            </div>
+            
+        </form>
+    </div>
+    
+    <footer>
+        <a href="index.html" id="ref_voltar"><img src="img/voltar.png" alt="Voltar" id="img_voltar">Voltar</a>
+    </footer>
+</body>
+</html>
