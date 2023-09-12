@@ -103,6 +103,8 @@ header > img{
 #img-destaque{
     padding: 260px;
     background-image: url(img/padaria.webp);
+    background-size: 95%;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
