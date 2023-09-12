@@ -24,7 +24,7 @@ header {
 header > h1{
 color: orange;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size: 66px;
+font-size: 65px;
 }
 
 /* Estilização da imagem do header */
@@ -119,7 +119,7 @@ header > img{
 
 main > section > h2{
     margin-top: 0px;
-    font-size: 36px;
+    font-size: 35px;
     text-align: center;
 
     color:rgb(60, 59, 59)
