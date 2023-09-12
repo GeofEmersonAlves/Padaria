@@ -7,14 +7,14 @@
 }
 
 body{
-    background-image: url(img/padaria.webp);
+    background-image: url('img/padaria.webp');
 }
 /* Estilização do Header */
 header {
     display: flex;
     align-items: center;
     justify-content:left;
-    padding-top: 5px;
+    padding-top: 6px;
     background: color;
     background-color:  white ;
     overflow: hidden;
