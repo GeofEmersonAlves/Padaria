@@ -8,4 +8,4 @@ function girar(){
     rotate+=10
 }
 
-setInterval(girar,50)
+setInterval(girar,49)
