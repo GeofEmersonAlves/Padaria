@@ -51,13 +51,13 @@ header > img{
 
 /* Mudar de cor quando passar o mouse em cima dos itens do menu  */
 .item-menu-header > a:hover {
-    color: rgb(255, 153, 0);
+    color: rgb(250, 155, 0);
     transition: 1s;
 }
 
 
 .item-menu-header > a{
-    color: grey;
+    color: rgb(130, 127, 127);
     text-decoration: none;
     font-size: 16px;
 
